@@ -1,0 +1,64 @@
+
+title = 'My New Hugo Site'
+theme = "PaperMod"
+baseurl = "https://CrazyBristy.github.io" 
+
+languageCode = "zh-tw" 
+
+buildDrafts = false 
+
+[[menu.main]]
+
+identifier = "tags"
+
+name = "tags"
+
+url = "/tags/"
+
+weight = 10
+[[menu.main]]
+
+identifier = "categories"
+
+name = "Categories"
+
+url = "/categories/"
+
+weight = 20
+[[menu.main]]
+
+identifier = "archives"
+
+name = "Archives"
+
+url = "/archives/"
+
+weight = 30
+[params.profileMode]
+enabled = true
+title = "Lin Yin Yuo"
+subtitle = "HEllO GUYS這個好難"
+imageUrl = "img/12.jpg"
+imageWidth = 120
+imageHeight = 120
+imageTitle = "Nice"
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "/posts/"
+
+[[params.profileMode.buttons]]
+name = "Categories"
+url = "/categories/"
+[[params.socialIcons]]
+name = "github"
+url = "your github profile url"
+#...more
+[params] 
+ShowBreadCrumbs = true    
+ShowReadingTime = true    
+ShowShareButtons = true    
+ShowPostNavLinks = true    
+
+
+[params.cover]
+linkFullImages = true    
